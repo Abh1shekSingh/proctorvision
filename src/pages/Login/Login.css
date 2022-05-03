@@ -1,0 +1,76 @@
+.Login__container{
+    background-color: #232527;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 245px 600px;
+}
+.Login__logo{
+    padding: 86px 0 ;
+}
+.Login{
+    background-color: #131415;
+    display: flex;
+    width: 100%;
+    height: 94vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login__inputFields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.Login__forgot{
+    font-family: "Poppins";
+    color: white;
+    font-size: 10px;
+    padding: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Login__Button button{
+    width: 151px;
+    height: 60px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 24px;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.textField__label{
+    color: white !important;
+}
+
+@media only screen and (max-width:1400px){
+    .Login__container{
+        margin: 82px 450px;
+    }
+}
+
+
+@media only screen and (max-width:1024px){
+    .Login__container{
+        margin: 82px 400px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .Login__container{
+        margin: 82px 200px;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .Login__container{
+        margin: 82px 60px;
+    }
+} 

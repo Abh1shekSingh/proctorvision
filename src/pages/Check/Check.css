@@ -1,0 +1,136 @@
+.Check{
+    background-color: #131415;
+}
+.upper__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3em;
+}
+.check__type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.check__type h2{
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+.icon{
+    color: white;
+    transform: scale(2);
+}
+.exam__timing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    color: white;
+}
+
+.exam__timing h2{
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 500;
+}
+.exam__timing p{
+    text-align: right;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+}
+.userChecking{
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.userChecking img{
+    width: 30%;
+}
+
+.check__pass_fail{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.check__pass_fail li{
+    list-style: none;
+}
+
+.check__pass_fail p{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1em 0;
+    margin-right: 20em;
+}
+.check__pass_fail img{
+    width: 36px;
+}
+.list_of_checking_items{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1em;
+}
+.lowerHeader{
+    display: flex;
+    justify-content: right;
+
+}
+@media only screen and (max-width:1200px){
+    .userChecking{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .upper__header{
+        flex-direction: column;
+        gap: 2em;
+    }
+    .exam__timing{
+        align-items: center;
+    }
+    .check__pass_fail p{
+        margin-right: 0 ;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .check__type h2{
+        font-family: "Poppins";
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+    }
+    .exam__timing h2{
+        font-family: "Poppins";
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+.start__button button{
+    margin-top: 1em;
+    width: 178px;
+    height: 51px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:600px){
+    .check__type h2{
+        font-size: 25px;
+    }
+   
+}

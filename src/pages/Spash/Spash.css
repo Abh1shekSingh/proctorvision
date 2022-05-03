@@ -1,0 +1,119 @@
+.Spash{
+    background-color: #131415;
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Spash__main{
+    background-color:#232527 ;
+    width: 1114px;
+    height: 634px;
+}
+
+.Spash__logo{
+    display: flex;
+    justify-content: left;
+    align-items:flex-end;
+    gap: .5em;
+    margin: 72px 72px;
+}
+
+.Spash__logo h1{
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 1;
+    font-size: 25px;
+}
+
+.Spash__text h1{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 48px;
+}
+.Spash__text{
+    margin: 86px 72px;
+    width: 733px;
+}
+
+.Spash__button{
+  margin: 0 72px;
+}
+
+.Spash__button button{
+    width: 207px;
+    height: 60px;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Spash__button .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1024px){
+    .Spash__main{
+        background-color:#232527 ;
+        width: 900px;
+        height: 634px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .Spash__main{
+        background-color:#232527 ;
+        width: 600px;
+        height: 634px;
+    }
+
+    .Spash__text h1{
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .Spash__main{
+        background-color:#232527 ;
+        width: 400px;
+        height: 634px;
+    }
+
+    .Spash__text h1{
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 2;
+    }
+
+    .Spash__text{
+        margin: 90px 50px;
+        width: 733px;
+    }
+    .Spash__button{
+        margin: 0 50px;
+      }
+
+      .Spash__button button{
+        width: 200px;
+        height: 45px;
+        font-size: 16px;
+        font-family: "Poppins";
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}

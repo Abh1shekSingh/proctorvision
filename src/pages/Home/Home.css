@@ -1,0 +1,157 @@
+.Home{
+    background-color: #131415;
+    width: 100%;
+
+}
+
+.Home h1{
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    padding: 50px 82px;
+}
+
+.Home .main_image {
+    max-width: 100%;
+    margin-left:  auto;
+    margin-right: auto;
+    display: block;
+    padding: px;
+}
+
+.Home h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    padding: 1em;
+    opacity: 50%;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.lowerHeader{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: "Poppins";
+    align-items: center;
+    padding: 2em 3em;
+}
+
+.user{
+    display: flex;
+    gap: 1em;
+}
+
+.userName p:nth-child(2){
+    opacity: 50%;
+    text-align: right;
+}
+
+.upper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+    padding: 1em 2em;
+    background-color: #232527;
+}
+
+.upper__text h3{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+}
+.upper__text p{
+    font-family: "Poppins";
+    opacity: 50%;
+    font-size: 14px;
+}
+
+.lower__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower{
+    width: 80%;
+    color: white;
+    margin: 0 auto;
+    padding: 1em 2em;
+    background-color: #232527;
+}
+
+.lower__text h3{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+}
+.lower__text p{
+    font-family: "Poppins";
+    opacity: 50%;
+    font-size: 14px;
+}
+
+.classes__exams{
+    background-color: #484C50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 1em;
+
+}
+
+.classes__exams p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-weight: 400;
+
+}
+
+.classes__exams h3{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.classes__exams button{
+    width: 183px;
+    height: 51px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+}
+.lower__sections{
+    margin-top: 1em;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.timings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.bellIcons{
+    transform: scale(1.3);
+}
+
+@media only screen and (max-width:1000px){
+    .classes__exams{
+        flex-direction: column;
+        gap: 2em;
+    }
+}

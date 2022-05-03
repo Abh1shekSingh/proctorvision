@@ -1,0 +1,94 @@
+.Settings{
+    background-color: #131415;
+    color: white;
+}
+
+.upper__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0 ;
+    margin-right: 100px;
+}
+
+.user h1{
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.user p{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.edit__pic{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.edit__pic p{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.genral__settings{
+    margin: 0 auto;
+    width: 90%;
+}
+.genral__settings h1{
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 400;
+}
+.Setting__container{
+    background-color: #232527;
+    margin: 1em auto;
+    padding: 2em;
+}
+
+.setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.setting h2{
+    font-family: "Poppins";
+    font-weight: 400 ;
+    font-size: 20px;
+}
+hr{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    width: 95%;
+    margin: 0 auto;
+}
+
+.last{
+    padding-bottom: 5em  ;
+}
+
+.setting p{
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+
+.icons{
+    transform: scale(2);
+}
+

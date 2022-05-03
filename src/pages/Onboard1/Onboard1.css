@@ -1,0 +1,54 @@
+.Onboard__container{
+    background-color: #232527;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%;
+}
+.Onboard{
+    background-color: #131415;
+    width: 100%;
+    height:94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.onboard1__image{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onboard1__image img{
+    max-width: 100%;
+    padding: 3em;
+}
+
+.onboard__text{
+    font-family: "Poppins";
+    font-family: 400;
+    color: white;
+}
+
+.onboard__action p{
+    color: white;
+    font-family: "Poppins";
+    cursor: pointer;
+    margin: 4em;
+}
+.onboard__action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width:600px){
+    .Onboard__container{
+        margin: 0 35%;
+    }
+}

@@ -1,0 +1,172 @@
+.Exam{
+    background-color: #131415;
+    width: 100%;
+    color: white;
+    display: flex;
+}
+.left__Container{
+    padding-left: 146px;
+    padding-top: 3.5em;
+    padding-bottom: 3em;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.timer{
+    display: flex;
+    gap: .5em;
+    font-family: "Poppins";
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1em ;
+}
+
+.watchIcon{
+    transform: scale(1.5);
+}
+
+
+
+.question__number h3{
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.question__statements{
+    background-color: #232527;
+    padding: 1em;
+}
+
+.question__statements p{
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 1em;
+}
+.option__container{
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.options{
+    display: flex;
+    background-color: #232527;
+    padding: 1em;
+    gap: .5em;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+}
+.options p {
+    font-family: "Poppins";
+
+}
+
+.doticon{
+    transform: scale(1.5);
+}
+
+.right__Container{
+    width: 30%;
+    display: flex;
+    padding: 0 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 25em;
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: .5em;
+    row-gap: .5em;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+.grid-item{
+    margin: 1em;
+    padding: .5em 1em;
+    background-color: #232527;
+    cursor: pointer;
+}
+
+.pagination p{
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    line-height: 56px;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    cursor: pointer;
+
+}
+.buttons{
+    display: flex;
+}
+.buttons button{
+    display: flex;
+    align-items: center;
+    border:none;
+   font-family: "Poppins";
+   font-size: 18px;
+   margin: 3.5em 1em;
+   padding: .5em 2em;
+   cursor: pointer;
+}
+
+.Warnings{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    left: 1150px;
+    top: 760px;
+    
+}
+.Alerts{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+    width: 20%;
+    font-family: "Poppins";
+    padding: 1em;
+   background-color: #232527 ;
+   color:white ;
+   box-shadow: 7px 8px 52px rgba(0, 0, 0, 0.35);
+}
+
+.alert__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+@media only screen and (max-width:1000px){
+    .Exam{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right__Container{
+        align-items: center;
+        justify-items: center;
+    }
+    .left__Container{
+        padding-left: 0;;
+    }
+}
