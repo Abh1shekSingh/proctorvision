@@ -7,10 +7,6 @@ import {FaAngleLeft,FaAngleRight} from "react-icons/fa"
 import cross from "../../assets/alertsCross.png"
 import redWarn from "../../assets/waringsignred.png"
 import yellowwarn from "../../assets/warningsign2.png"
-
-import Alert from '@mui/material/Alert';
-import AlertTitle from '@mui/material/AlertTitle';
-import Stack from '@mui/material/Stack';
 const Exam = () => {
   return (
     <div className='Exam'>
