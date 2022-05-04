@@ -8,6 +8,7 @@ import "./Home.css"
 const Home = () => {
   return (
     <div className='Home'>
+    <div className='HomeWrapper'>
         <h1>My Classes</h1>
         
         <div className='upper'>
@@ -17,7 +18,7 @@ const Home = () => {
             </div>
             <i>{<IoIosArrowForward />}</i>
         </div>
-<br></br>
+        <br></br>
         <div className='lower'>
             
             <div className='lower__title'>
@@ -76,6 +77,7 @@ const Home = () => {
                     <img src={user} alt="" />
                 </div>
             </div></Link>
+        </div>
         </div>
     </div>
   )

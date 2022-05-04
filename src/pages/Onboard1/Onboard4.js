@@ -14,7 +14,7 @@ const Onboard3 = () => {
               <p>Protecting rights, respecting privacy</p>
             </div>
             <div className='onboard__action'>
-              <Link to="/emptyhome"><p>Continue <i><IoIosArrowForward /></i></p></Link>
+              <Link to="/home"><p>Continue <i><IoIosArrowForward /></i></p></Link>
             </div>
             <div className='Dots'>
               
