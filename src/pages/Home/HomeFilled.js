@@ -67,7 +67,7 @@ const Home = () => {
         </div>
 
         <div className='lowerHeader'>
-            <p>Take a demo class</p>
+            
             <Link to="/setting"><div className='user'>
                 <div className='userName'>
                     <p>Samuel Doe</p>
